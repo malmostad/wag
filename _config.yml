@@ -3,9 +3,9 @@ name: Web Application Guidelines 3.0
 markdown: kramdown
 pygments: true
 exclude: [Gemfile, Gemfile.lock, .gitignore, README.md, COPYING, build.sh]
-baseurl: /intranet-assets
-# cdn_url: //assets.malmo.se/internal/3.0
-cdn_url: //www.local.malmo.se:3001/assets
+baseurl: /wag
+cdn_url: //assets.malmo.se/internal/3.0
+# cdn_url: //www.local.malmo.se:3001/assets
 permalink: /:categories/:title
 relative_permalinks: false
 
