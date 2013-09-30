@@ -1,9 +1,7 @@
 Web Application Guidelines 3.0
 ==============================
 
-Guidelines for The City of Malmö's intranet applications are avaialbe at:
-
-http://malmostad.github.io/wag
+Guidelines for The City of Malmö’s intranet applications are available for reading at http://malmostad.github.io/wag
 
 
 ## Editing the Guidelines
