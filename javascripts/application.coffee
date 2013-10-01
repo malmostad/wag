@@ -36,3 +36,5 @@ $ ->
     alert "Only a dummy form"
     console.log "Y"
     event.preventDefault()
+  $("#load-more").click ->
+    $(@).text("Loading...").attr('disabled', true)
