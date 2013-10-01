@@ -77,11 +77,6 @@ jQuery version 1.10.x is included in the global assets. Other third party JavaSc
 ## CSS Units
 As noted in several sections, you should use relative units in your CSS code. Use `em` and `%`. The exceptions are thin borders where you can use `1px` and forms (see the section on forms).
 
-## I don't find...
-Markup and style for 
-
-
-
 ## Your Applications Domain
 All web applications must have a subdomain under *.malmo.se. This is essential for the masthead to work.
 

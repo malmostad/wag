@@ -1,9 +1,8 @@
-* Assets components
+* Components
   * Service-title?
   * Calendar
   * Tabs?
   * Sub menu?
-  * Pagination/load more/endless loading
 
 * Screen dump examples
 
