@@ -24,7 +24,7 @@ Depending on your role, different sections of the WAGs will be of more or less r
 
 ## Levels of Compliance
 
-### Custom Build Systems
+### Custom Built Systems
 Custom built systems for the City of Malmö must use all parts of the guidelines. The same is true for central parts of the intranet that employees use for important daily tasks.
 
 Other systems deployed within the organization should use the WAG
