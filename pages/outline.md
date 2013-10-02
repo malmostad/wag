@@ -12,3 +12,6 @@
 * Upgrade Bootstrap and cleanup?
   * Flat style?
 * Change root for assets.malmo.se to wag docs
+
+* Change _renderItem in autocomplete code to ui-autocomplete and ui-autocomplete-item in Dashboard to match upgrade of jQuery UI.
+http://stackoverflow.com/questions/9513251/cannot-set-property-renderitem-of-undefined-jquery-ui-autocomplete-with-html
