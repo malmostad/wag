@@ -6,10 +6,10 @@ permalink: /getting_started/
 
 # Getting Started
 
-The term "global assets" here refers to the common JavaScript, stylesheet, web fonts and a few images that are share by all intranet applications. The global asset files are served from a public available asset server: assets.malmo.se. Each application will likely have its own additional assets for application specific styling and functionallity.
+The term "global assets" refers to the JavaScript, stylesheet, web fonts and a few images that are share by all intranet applications at the City of Malmö. The global asset files are served from a public available asset server: assets.malmo.se. Each application will likely have its own additional assets for application specific styling and functionallity.
 
-## Include the Global Assets In Your Markup
-To use the global assets, you need to include a stylesheet and a JavaScript file in your application as well as a favicon referencea and a few conditional includes for older browsers. Be sure to use the HTML5 doctype to get it all working.
+## Include the Global Assets In Your Application
+To use the global assets, you need to include a stylesheet and a JavaScript file in your application as well as a favicon reference and a few conditional includes for older browsers. Be sure to use the HTML5 doctype and the `X-UA-Compatible` meta tag to get it all working.
 
 Your `head` block should look like this:
 
@@ -31,11 +31,11 @@ Your `head` block should look like this:
     ...
 {% endhighlight %}
 
-As you can see in the example, your own stylesheet should be added after the global stylesheet. Your own stylesheet contains everything your application need that is not contained in the global assets. Application specific files are not deployed to the asset server, those are served directly from your applications web server.
+As you can see in the example, your own stylesheet should be added after the global stylesheet. Your own stylesheet contains everything your application needs that is not contained in the global assets. Application specific files are not deployed to the asset server, those are served directly from your applications web server.
 
 The `viewport` meta tag must be included to get a responsive application. You *must not* set the `maximum-scale` value in the `viewport` meta tag bacause it is not our business to decide if the user want's to zoom in or not on a narrow device.
 
-JavaScript files should be included just before the end `body` tag.
+JavaScript files should be included just before the end `body` tag:
 
 {% highlight html %}
     ...
@@ -50,12 +50,12 @@ Your own JavaScript is placed after the global one.
 ## Optimize Your Own Assets
 Your own stylesheets and JavaScript code must be contcatenated into single files and then minified. If your application has files for older versions of Internet Explorer, include them in conditional comments.
 
-Served your assets with gzip/deflate compression from the web server with http cache headers optimized.
+Serve your assets with gzip/deflate compression from the web server with http caching headers optimized.
 
 If you're using AMD loading of assets, all individual files must be minified and you need to optimize the balance beween the number of http request and the size of the files.
 
 ## The Masthead
-The masthead, seen at the top of this page, is automaticaly included on every intranet page when you use the global assets. The `margin-top` on the `body` of your application must leave room for the masthead that has a fixed position on wider viewports.
+The masthead, seen at the top of this page, is automaticaly included on every intranet page when you use the global assets. The `margin-top` on the `body` of your application must leave room for the masthead that has a fixed position on wider viewports. TODO: on all sizes?
 
 The masthead is responsive and you must set the `viewport` meta tag in your application for it to work (see above).
 
@@ -70,20 +70,20 @@ If one of the menu items in the masthead should be indicated as active in your a
 
 
 ## Components and Widgets in the Global Assets
-Since the global assets are used in many applications and since they have a long lifecycle, we are conservative when it comes to include UI components and frameworks in the bundle. If you have need for components not included, add them to your own code.
+Since the global assets are used by many applications and since they have a long lifecycle, we are cautious when it comes to include UI components and frameworks in the bundle. If you have need for components not included, add them to your own code and be sure to maintain and update them.
 
-jQuery version 1.10.x is included in the global assets. Other third party JavaScript components can be seen in the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/). The jQuery UI file includes the autocomplete component documented in the Forms section but not any other jQuery UI components.
+jQuery version 1.10.x is included in the global assets. Other third party JavaScript components can be seen in the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/). The jQuery UI file includes the autocomplete component documented in the Forms section but not any of the other jQuery UI components and not a jQuery UI theme.
 
 ## CSS Units
-As noted in several sections, you should use relative units in your CSS code. Use `em` and `%`. The exceptions are thin borders where you can use `1px` and forms (see the section on forms).
+As noted in several sections, you should use relative units in your CSS code. Use `em` and `%`. The exceptions are thin borders where you can use `1px` and font size in forms (see the section on Typography).
 
 ## Your Applications Domain
 All web applications must have a subdomain under *.malmo.se. This is essential for the masthead to work.
 
 ## Google Analytics
-Google Analytics tracking is included in the global assets and statistics are collected to the City of Malmö's account. This is important so we can analyse traffic and user behaviour across all off our services. You *must not* initiate other Google Analytics accounts in your application.
+Google Analytics tracking is included in the global assets and statistics are collected to the City of Malmö's account. This is important so we can analyze traffic and user behaviour across all off our services. You *must not* initiate other Google Analytics accounts in your application.
 
-If you need to do custom event tracking in your application, use your applications technical name as a prefix for the event names so we don't get events with colliding names.
+If you need to do custom event tracking in your application, use your applications technical name as a prefix for the event names so we don't get Google Analytics events with colliding names.
 
 To prevent data from your development and test environments to be collected in the production account, add a `development` or `test` class to the `body` tag. The data will then be collected to our test account.
 

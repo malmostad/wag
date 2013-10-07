@@ -6,6 +6,8 @@
 
 * Screen dump examples
 
+* Masthead, fixed on all sizes?
+
 # Changes in assets
 * Change body margin to 0 and margin-top: 2.5em, or use two body classes for the different variants
 * Removed ie9

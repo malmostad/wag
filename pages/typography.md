@@ -35,7 +35,7 @@ If a device has the base font size set to 16px and the zoom level is set to 100%
 | ------------------------------------------------------ | ---------------- | --------- | ------------ |
 {:.full.wrap}
 
-Note: This is the sizes in pixels that the text will *rendered* in with the circumstances mentioned above, the sizes should be *specified* in relative sizes. An exception to this rule is forms that are set in absolute units using `px`. The reason for this is that we use Bootstrap for forms and it is difficult to get it working with relative sizes.
+Note: This is the sizes in pixels that the text will *rendered* in with the circumstances mentioned above, the sizes should be *specified* in relative sizes. An exception to this rule is font size in forms that are set in absolute units using `px`. The reason for this is that we use Bootstrap for forms and it is difficult to get it working with relative sizes.
 
 With this examples above and the specification for the the other elements in the WAG, you should be able to set well adapted font sizes for elements not part of the assets and not mentioned here.
 
