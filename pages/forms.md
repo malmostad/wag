@@ -448,6 +448,37 @@ Summarize what needs to be corrected at the top of the form. Add the `warning` c
 {% endhighlight %}
 
 
+## Datepicker
+[Bootstrap Datepicker](https://github.com/eternicode/bootstrap-datepicker) is available in the global assets. Note that this is [@eternicodes](https://github.com/eternicode) fork of the component. Use the configuration below for a simple datepicker.
+
+<div class="example">
+  <form action="/fox" method="post" class="malmo-form">
+    <div class="input-append date" id="my-datepicker">
+      <input type="text" class="date"/>
+      <span class="add-on icon-th"></span>
+    </div>
+  </form>
+</div>
+
+{% highlight html %}
+<form action="/fox" method="post" class="malmo-form">
+  <div class="input-append date" id="my-datepicker">
+    <input type="text" class="date"/>
+    <span class="add-on icon-th"></span>
+  </div>
+</form>
+{% endhighlight %}
+
+{% highlight coffeescript %}
+$('#datepicker-example').datepicker
+  format: "yyyy-dd-mm"
+  weekStart: 1
+  language: "sv"
+  autoclose: true
+  todayHighlight: true
+{% endhighlight %}
+
+
 ## Autocomplete
 [jQueryUI Autocomplete](http://jqueryui.com/autocomplete/) is available in the assets with a custom styling. Here is an example how you used it with the City of Malmö's map service. The service has a jsonp interface.
 

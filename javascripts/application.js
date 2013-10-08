@@ -41,8 +41,15 @@
       console.log("Y");
       return event.preventDefault();
     });
-    return $("#load-more").click(function() {
+    $("#load-more").click(function() {
       return $(this).text("Loading...").attr('disabled', true);
+    });
+    return $('#my-datepicker').datepicker({
+      format: "yyyy-dd-mm",
+      weekStart: 1,
+      language: "sv",
+      autoclose: true,
+      todayHighlight: true
     });
   });
 

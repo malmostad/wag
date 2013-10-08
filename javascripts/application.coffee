@@ -38,3 +38,10 @@ $ ->
     event.preventDefault()
   $("#load-more").click ->
     $(@).text("Loading...").attr('disabled', true)
+
+  $('#my-datepicker').datepicker
+    format: "yyyy-dd-mm"
+    weekStart: 1
+    language: "sv"
+    autoclose: true
+    todayHighlight: true

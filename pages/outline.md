@@ -9,6 +9,7 @@
 
 * Masthead, fixed position on all sizes?
 
+* Awesome fonts
 
 # Changes in assets
 
