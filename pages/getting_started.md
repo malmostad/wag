@@ -45,7 +45,14 @@ JavaScript files should be included just before the end `body` tag:
 </html>
 {% endhighlight %}
 
-Your own JavaScript is placed after the global one.
+Your own JavaScript should be placed after the global one.
+
+### Legacy Systems
+If you have an approved exception from kominteamet@malmo.se to not comply with the full WAG, you must at a minimum enable the intranet masthead in your application. To do so, change `malmo.css` to `masthead_standalone.css` and `malmo.js` to `masthead_standalone.js` in the code above.
+
+If your application already includes jQuery 1.10.x, change the JavaScript to `masthead_standalone_without_jquery.js`.
+
+If your application has no responsive design, change the stylesheet to `masthead_standalone_non_rwd.css`.
 
 ## Optimize Your Own Assets
 Your own stylesheets and JavaScript code must be contcatenated into single files and then minified. If your application has files for older versions of Internet Explorer, include them in conditional comments.

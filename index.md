@@ -29,9 +29,8 @@ Custom built systems for the City of Malmö must use all parts of the guidelines
 
 Other systems deployed within the organization should use the WAG
 
-
 ### Lowest Level of Compliance
-If a system is hopeless and nothing can be changed in the presentaion layer because it is closely tied to the business logic or worse, you must at least have the masthead injected so that the user can reach other resources on the intranet.
+If a system is hopeless, and nothing can be changed in the presentaion layer because it is closely tied to the business logic or worse, you must at least have the masthead injected so that the user can reach other resources on the intranet.
 
 
 ## Browser Support
