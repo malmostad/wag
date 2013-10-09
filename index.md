@@ -21,17 +21,14 @@ Depending on your role, different sections of the WAGs will be of more or less r
 * Are a vendor working with the introduction of a new system.
 * Are adapting or updating an existing web based application.
 
+## Exceptions From the WAG
+New systems built for, or procured by the City of Malmö must use all of the WAG. If you cannot do so, please contact kominteamet@malmo.se.
 
-## Levels of Compliance
+There are two levels of partial compliance with the WAG.
 
-### Custom Built Systems
-Custom built systems for the City of Malmö must use all parts of the guidelines. The same is true for central parts of the intranet that employees use for important daily tasks.
+If you have complex forms that cannot use the markup structure specified in the Forms section, use the instructions in that section to avoid the global assets from interfering with your own styling. Don't forget that the forms must still be easy to use.
 
-Other systems deployed within the organization should use the WAG
-
-### Lowest Level of Compliance
-If a system is hopeless, and nothing can be changed in the presentaion layer because it is closely tied to the business logic or worse, you must at least have the masthead injected so that the user can reach other resources on the intranet.
-
+If your application for some reason can't be changed at all when it comes to the user interface and if the application is not a significant service in the intranet that employees use for daily tasks, you can get an exeption from kominteamet@malmo.se to just use the masthead in your application. See the Getting Started section for technical instructions.
 
 ## Browser Support
 A [list of devices and browsers](http://malmo.se/Web-Application-Guidelines/Browser-Support.html) that web based intranet services must support is available in the previous version of the WAG.
