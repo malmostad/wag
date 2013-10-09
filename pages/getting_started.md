@@ -74,6 +74,8 @@ Since the global assets are used by many applications and since they have a long
 
 jQuery version 1.10.x is included in the global assets. Other third party JavaScript components can be seen in the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/). The jQuery UI file includes the autocomplete component documented in the Forms section but not any of the other jQuery UI components and not a jQuery UI theme.
 
+The global assets includes a full version of the icon web font [Font Awesome](http://fontawesome.io/). Check the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/stylesheets) in the assets source code to see which version is included.
+
 ## CSS Units
 As noted in several sections, you should use relative units in your CSS code. Use `em` and `%`. The exceptions are thin borders where you can use `1px` and font size in forms (see the section on Typography).
 

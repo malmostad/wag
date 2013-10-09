@@ -5,19 +5,19 @@ title: Web Application Guidelines 3.0
 
 # Web Application Guidelines
 
-Version 3.0 for City of Malmö's intranet, "Komin".
+Version 3.0 for the City of Malmö's intranet, "Komin".
 {:.preamble}
 
 ## Purpose
-The City of Malmö's Web Application Guidelines and the global assets are used by web based applications within the organization to give the employee a consistent expirience of the intranet no matter what kind of system 
+The City of Malmö's Web Application Guidelines (WAG) and the global assets are used by web based applications within the organization to give the end user a consistent expirience of the intranet independently of the different technical systems behind the services.
 
-RWD
+Please contact kominteamet@malmo.se for questions about the WAG.
 
 ## Audience
 Depending on your role, different sections of the WAGs will be of more or less relevance to you. Familiarize yourself with the guidelines if you:
 
-* Plan procurement of a system, it can be an existing product or a custom built solution.
-* Develop a new web based application.
+* Are planning procurement of a system, it can be an existing product or a custom built solution.
+* Are developing a new web based application.
 * Are a vendor working with the introduction of a new system.
 * Are adapting or updating an existing web based application.
 

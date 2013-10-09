@@ -112,6 +112,9 @@ pre {
     padding: 0 .4em;
     margin: 0; }
 
+a.dropdown-toggle:hover {
+  text-decoration: none; }
+
 .grid-example {
   *zoom: 1; }
   .grid-example:before, .grid-example:after {

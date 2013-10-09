@@ -1,15 +1,10 @@
 * Components
   * Service-title?
-  * Calendar
-  * Tabs?
   * Sub menu?
 
 * Screen dump examples
 
-
 * Masthead, fixed position on all sizes?
-
-* Awesome fonts
 
 # Changes in assets
 

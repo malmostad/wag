@@ -112,6 +112,11 @@ pre {
   }
 }
 
+
+a.dropdown-toggle:hover {
+  text-decoration: none;
+}
+
 .grid-example {
   @include clearfix();
   nav {
