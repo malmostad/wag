@@ -40,7 +40,7 @@ Note: This is the sizes in pixels that the text will *rendered* in with the circ
 With this examples above and the specification for the the other elements in the WAG, you should be able to set well adapted font sizes for elements not part of the assets and not mentioned here.
 
 ## Text Color
-Almost exclusively black text on white background.
+Black text on white background.
 
 ## Article Content
 The `body-copy` class in a container is used for article content to get headings, paragraphs and lists styled. Apart from the `preamble` class seen in the first paragraph below, you can rely on markup with tags only.
