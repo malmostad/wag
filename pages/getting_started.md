@@ -75,6 +75,12 @@ If one of the menu items in the masthead should be indicated as active in your a
 * Min anställning: `malmo-masthead-hrutan`
 * Mer: `malmo-masthead-more`
 
+## Application Title
+Put the human name of your application at top of the page like we've done here by adding an app-title:
+
+{% highlight html %}
+<div class='app-title'><a href='/'>Web Application Guidelines 3.0</a></div>
+{% endhighlight %}
 
 ## Components and Widgets in the Global Assets
 Since the global assets are used by many applications and since they have a long lifecycle, we are cautious when it comes to include UI components and frameworks in the bundle. If you have need for components not included, add them to your own code and be sure to maintain and update them.
