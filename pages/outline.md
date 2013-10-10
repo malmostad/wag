@@ -1,10 +1,11 @@
-* Components
-  * Service-title?
-  * Sub menu?
+* Masthead, fixed position on all sizes?
+* Solution for the body margin
+* Sub menu
+
+* Service-title?
 
 * Screen dump examples
 
-* Masthead, fixed position on all sizes?
 
 # Changes in assets
 
