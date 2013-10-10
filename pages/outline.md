@@ -1,5 +1,5 @@
-* Masthead, fixed position on all sizes?
-* Solution for the body margin
+
+
 * Sub menu
 
 * Service-title?
