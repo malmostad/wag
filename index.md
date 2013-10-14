@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Web Application Guidelines 3.0
+permalink: /
 ---
 
 # Web Application Guidelines
