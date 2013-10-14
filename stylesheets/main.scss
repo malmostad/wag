@@ -127,6 +127,7 @@ a.dropdown-toggle:hover {
   }
   article {
     @include columns(6);
+    margin-top: 0;
   }
   aside {
     @include columns(3, true);
