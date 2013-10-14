@@ -25,7 +25,7 @@ To get the correct styling for buttons, you need to use the class names specifie
 
 
 ## Action Semantics
-Use the `btn-primary` class for actions where the user is creating or saving something. This includes a *Login* button. The `btn-danger` class is used for deleteting actions where a warning is appropriate. For all other buttons, like *Search*, *Cancel* or *Update filter*, use the `btn` class only.
+Use the `btn-primary` class for actions where the user is creating or saving something. This includes a *Login* button. The `btn-danger` class is used for deleting actions where a warning is appropriate. For all other buttons, like *Search*, *Cancel* or *Update filter*, use the `btn` class only.
 
 <div class="example">
   <button class="btn">Search</button>

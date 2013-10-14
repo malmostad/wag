@@ -17,7 +17,7 @@ The preferred way of handling large result sets is to use lazy loading or a simp
 {% endhighlight %}
 
 ## Classic Pagination
-If you for some reason can't use Ajax based loading of more records and need classic pagination, you can't use the following Boostrap style markup.
+If you for some reason can't use Ajax based loading of more records and need classic pagination, you can't use the following Bootstrap style markup.
 
 <div class="example">
   <div class="pagination">

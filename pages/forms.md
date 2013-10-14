@@ -14,7 +14,7 @@ The form will switch to a vertically layout when the device width is under 46em.
 
 
 ## Exceptions
-If you are deploying an off-the-rack system at City of Malmö that has it's own form styling that can't be normalized or you can't alter the form markup, you can ommit the `malmo-form` class. This requires an approved exception from kominteamet@malmo.se.
+If you are deploying an off-the-rack system at City of Malmö that has it's own form styling that can't be normalized or you can't alter the form markup, you can omit the `malmo-form` class. This requires an approved exception from kominteamet@malmo.se.
 
 ## Single Field Forms
 An input field used together with an action button, most often used for search forms.
@@ -312,7 +312,7 @@ An input field used together with an action button, most often used for search f
 {% endhighlight %}
 
 ## Form Validation
-Summarize what needs to be corrected at the top of the form. Add the `warning` class to the `control-group` that needs to be corrected along with a `help-inline` message.
+Summarize what needs to be corrected at the top of the form. Add the `warning` class to the `control-groupp` that needs to be corrected along with a `help-inline` message.
 
 <div class="example">
   <form action="/fox" method="post" class="form-horizontal malmo-form">
