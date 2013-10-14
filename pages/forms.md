@@ -5,7 +5,7 @@ permalink: /forms/
 ---
 
 # Forms
-We use [Bootstrap](http://getbootstrap.com/) markup for forms. The styling is slightly different from Bootstrap, but you shouldn't have to worry about that as long as you use the correct markup.
+We use [Bootstrap 2.3](http://getbootstrap.com/) markup for forms. The styling is slightly different from Bootstrap, but you shouldn't have to worry about that as long as you use the correct markup.
 
 To apply the styling to your forms, you need to use the `malmo-form` class in the `form` element or outside it. This means that you can set it in the `body` element or in a global wrapper to have all your forms styled.
 

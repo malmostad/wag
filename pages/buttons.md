@@ -5,7 +5,7 @@ permalink: /buttons/
 ---
 
 # Styling Buttons
-To get the correct styling for buttons, you need to use the class names specified below. We follow the [Bootstrap](http://getbootstrap.com/) class name standard. Please note that:
+To get the correct styling for buttons, you need to use the class names specified below. Follow the [Bootstrap 2.3](http://getbootstrap.com/) class name standard. Please note that:
 
 * No default styling is applied to buttons.
 * The styling works for both `input` elements of the `submit` type as well as `button` and `a` elements.

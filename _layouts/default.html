@@ -14,12 +14,10 @@
   </head>
   <body class="development">
   <div class='app-title'><a href='{{ site.baseurl }}/'>{{ site.name }}</a></div>
-    <div class='wrapper'>
-      {% include menu.html %}
-      <article class='body-copy'>
-        {{ content }}
-      </article>
-    </div>
+    <article class='body-copy'>
+      {{ content }}
+    </article>
+    {% include nav.html %}
     <footer>The City of Malmö's intranet team. kominteamet@malmo.se</footer>
     <script src='{{ site.cdn_url }}/malmo.js'></script>
     <script src='{{ site.baseurl }}/javascripts/application.js'></script>
