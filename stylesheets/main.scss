@@ -29,6 +29,13 @@ footer {
   font-family: $sansSerif;
 }
 
+@media (max-width: 40em) {
+  article, nav.toc, footer {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
 p code, li code {
   font-size: 1.1em;
   margin: 0 .1em;

@@ -24,6 +24,10 @@ footer {
   font-size: 0.8125em;
   font-family: "OpenSans", "Droid Sans", Verdana, "DejaVu Sans", "Bitstream Vera Sans", sans-serif; }
 
+@media (max-width: 40em) {
+  article, nav.toc, footer {
+    margin-left: 1em;
+    margin-right: 1em; } }
 p code, li code {
   font-size: 1.1em;
   margin: 0 .1em;
