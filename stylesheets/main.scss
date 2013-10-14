@@ -1,10 +1,10 @@
 article {
   margin: 2em auto;
-  max-width: 38em;
+  max-width: 36em;
 }
 
 nav.toc {
-  max-width: 38em;
+  max-width: 36em;
   margin: 1em auto;
   h1 {
     font-family: $sansSerif;
@@ -39,7 +39,7 @@ footer {
   font-family: $sansSerif;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 38em) {
   article, nav.toc, footer {
     margin-left: 1em;
     margin-right: 1em;
@@ -161,6 +161,7 @@ a.dropdown-toggle:hover {
     }
     article {
       @include columns(12);
+      margin-left: 0;
     }
   }
 }
