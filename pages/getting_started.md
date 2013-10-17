@@ -6,7 +6,7 @@ permalink: /getting_started/
 
 # Getting Started
 
-The term "global assets" refers to the JavaScript, stylesheet, web fonts and a few images that are share by all intranet applications at the City of Malmö. The global asset files are served from a public available asset server: assets.malmo.se. Each application will likely have its own additional assets for application specific styling and functionality.
+The term "global assets" refers to the JavaScript, stylesheet, web fonts and a few images that are share by all intranet applications at the City of Malmö. The global asset files are served from a public available asset server: (assets.malmo.se). Each application will likely have its own additional assets for application specific styling and functionality.
 
 ## Include the Global Assets In Your Application
 To use the global assets, you need to include a stylesheet and a JavaScript file in your application as well as a favicon reference and a few conditional includes for older browsers. Be sure to use the HTML5 doctype and the `X-UA-Compatible` meta tag to get it all working.
@@ -33,26 +33,22 @@ Your `head` block should look like this:
 
 As you can see in the example, your own stylesheet should be added after the global stylesheet. Your own stylesheet contains everything your application needs that is not contained in the global assets. Application specific files are not deployed to the asset server, those are served directly from your applications web server.
 
-The `viewport` meta tag must be included to get a responsive application. You *must not* set the `maximum-scale` value in the `viewport` meta tag because it is not our business to decide if the user wants to zoom in or not on a narrow device.
+The `viewport` meta tag must be included to get a responsive application. You *must not* set the `maximum-scale` value in the `viewport` meta tag; it is not our business to decide if the user wants to zoom in or not on a narrow device.
 
 JavaScript files should be included just before the end `body` tag:
 
 {% highlight html %}
     ...
     <script src='//assets.malmo.se/internal/3.0/malmo.js'></script>
-    <script src='/your_own_javascripts.js'></script>
+    <script src='/your_own_javascript.js'></script>
   </body>
 </html>
 {% endhighlight %}
 
-Your own JavaScript should be placed after the global one.
+Place your own JavaScript file right after the global one as shown.
 
 ### Legacy Systems
-If you have an approved exception from kominteamet@malmo.se to not comply with the full WAG, you must at a minimum enable the intranet masthead in your application. To do so, change `malmo.css` to `masthead_standalone.css` and `malmo.js` to `masthead_standalone.js` in the code above.
-
-If your application already includes jQuery 1.10.x, change the JavaScript to `masthead_standalone_without_jquery.js`.
-
-If your application has no responsive design, change the stylesheet to `masthead_standalone_non_rwd.css`.
+If you have an approved exception from kominteamet@malmo.se to not comply with the full WAG, you must at a minimum enable the intranet masthead in your application. To do so, change `malmo.css` to `masthead_standalone.css` and `malmo.js` to `masthead_standalone.js` in the code above. If your application already includes jQuery 1.10.x, change the JavaScript to `masthead_standalone_without_jquery.js` and if your application isn't responsive, change the stylesheet to `masthead_standalone_non_rwd.css`.
 
 ## Optimize Your Own Assets
 Your own stylesheets and JavaScript code must be concatenated into single files and then minified. If your application has files for older versions of Internet Explorer, include them in conditional comments.
@@ -62,7 +58,7 @@ Serve your assets with gzip/deflate compression from the web server with http ca
 If you're using AMD loading of assets, all individual files must be minified and you need to optimize the balance between the number of HTTP request and the size of the files.
 
 ## The Masthead
-The masthead, seen at the top of this page, is automatically included on every intranet page when you use the global assets. The `margin-top` on the `body` of your application must leave room for the masthead that has a fixed position on wider viewports. TODO: on all sizes?
+The masthead, seen at the top of this page, is automatically included on every intranet page when you use the global assets. The `margin-top` on the `body` of your application must leave room for the masthead that has a fixed position on wider viewports and absolute on narrow ones.
 
 The masthead is responsive and you must set the `viewport` meta tag in your application for it to work (see above).
 
@@ -85,12 +81,12 @@ Put the human name of your application at top of the page like we've done here b
 ## Components and Widgets in the Global Assets
 Since the global assets are used by many applications and since they have a long life-cycle, we are cautious when it comes to include UI components and frameworks in the bundle. If you have need for components not included, add them to your own code and be sure to maintain and update them.
 
-jQuery version 1.10.x is included in the global assets. Other third party JavaScript components can be seen in the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/). The jQuery UI file includes the autocomplete component documented in the Forms section but not any of the other jQuery UI components and not a jQuery UI theme.
+jQuery version 1.10.x is included in the global assets. Other third party JavaScript components can be seen in the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/). The jQuery UI file includes the autocomplete component documented in the *Forms* section but not any of the other jQuery UI components and not a jQuery UI theme.
 
 The global assets includes a full version of the icon web font [Font Awesome](http://fontawesome.io/). Check the [vendor directory](https://github.com/malmostad/intranet-assets/tree/master/vendor/assets/stylesheets) in the assets source code to see which version is included.
 
 ## CSS Units
-As noted in several sections, you should use relative units in your CSS code. Use `em` and `%`. The exceptions are thin borders where you can use `1px` and font size in forms (see the section on Typography).
+As noted in several sections, you should use relative units in your CSS code. Use `em` and `%`. The exceptions are thin borders where you can use `1px` and font size in forms (see the section on *Typography*).
 
 ## Your Applications Domain
 All web applications must have a subdomain under *.malmo.se. This is essential for the masthead to work.

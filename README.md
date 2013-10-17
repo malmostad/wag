@@ -26,7 +26,7 @@ Go to [http://localhost:4000/](http://localhost:4000/)
 
 
 ## Editing Sass and Coffeescript
-There are a few asset files in the gh-pages branch used for the WAG itself. The source is available in `stylesheets` and `javascripts`. To compile during editing, start one or both of the following watchers:
+There are a few asset files in the gh-pages branch used for the WAG itself. The source is available in the `stylesheets` and `javascripts` directories. To compile during editing, start one or both of the following watchers:
 
 ``` shell
 $ sass --watch stylesheets/application.scss
