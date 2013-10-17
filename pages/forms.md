@@ -7,7 +7,7 @@ permalink: /forms/
 # Forms
 We use [Bootstrap 2.3](http://getbootstrap.com/) markup for forms. The styling is slightly different from Bootstrap, but you shouldn't have to worry about that as long as you use the correct markup.
 
-To apply the styling to your forms, you need to use the `malmo-form` class in the `form` element or outside it. This means that you can set it in the `body` element or in a global wrapper to have all your forms styled.
+To apply the styling to your forms, you need to use the `malmo-form` class in the `form` element or somewhere around it. This means that you can set it in the `body` element or in a global wrapper to have all your forms styled.
 
 ## Responsive Forms
 The form will switch to a vertically layout when the device width is under 46em. This is applied in a global media query. If your layout requires that your forms, or some of them, gets the vertically layout above 46em, if you e.g. have a form in a narrow box, you can use the `form-force-vertical()` Sass mixin found in the [mixins file](https://github.com/malmostad/intranet-assets/blob/master/app/assets/stylesheets/mixins.css.scss#L67). Apply it in a media query in your application specific assets.
@@ -449,7 +449,7 @@ Summarize what needs to be corrected at the top of the form. Add the `warning` c
 
 
 ## Datepicker
-[Bootstrap Datepicker](https://github.com/eternicode/bootstrap-datepicker) is available in the global assets. Note that this is [@eternicodes](https://github.com/eternicode) fork of the component. Use the configuration below for a simple datepicker.
+[Bootstrap Datepicker](https://github.com/eternicode/bootstrap-datepicker) is available in the global assets. Note that this is [@eternicodes](https://github.com/eternicode) fork of the component. Use the configuration below for a simple datepicker or check the components full API specification.
 
 <div class="example">
   <form action="/fox" method="post" class="malmo-form">
@@ -480,7 +480,7 @@ $('#datepicker-example').datepicker
 
 
 ## Autocomplete
-[jQueryUI Autocomplete](http://jqueryui.com/autocomplete/) is available in the assets with a custom styling. Here is an example how you used it with the City of Malmö's map service. The service has a jsonp interface.
+[jQueryUI Autocomplete](http://jqueryui.com/autocomplete/) is available in the global assets with a custom styling. Here is a live example of how you use it with the City of Malmö's map service. The service has a jsonp interface.
 
 <div class="example">
   <form action="/fox" method="get" class="malmo-form">

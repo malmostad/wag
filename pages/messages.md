@@ -10,11 +10,11 @@ There are three kind of response messages. Use the warning message when the user
 <div class="example">
   <div class="success">Your profile was updated</div>
   <div class="warning">Please correct the indicated fields below</div>
-  <div class="error">Your ticket could not be displayed. Please try again later.</div>
+  <div class="error">Your account can not be displayed. Please try again later.</div>
 </div>
 {% highlight html %}
 <div class="success">Your profile was updated</div>
 <div class="warning">Please correct the indicated fields below</div>
-<div class="error">Your ticket could not be displayed. Please try again later.</div>
+<div class="error">Your account can not be displayed. Please try again later.</div>
 </div>
 {% endhighlight %}

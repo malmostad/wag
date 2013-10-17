@@ -7,10 +7,10 @@ permalink: /tables/
 # Tables
 Use a standard table markup with `thead` and `tbody` sections to get the correct styling.
 
-Add the `wrap` class for responsive tables. It will be wrap the table in a container with a horizontal scroll added when the device isn't wide enough.
+Add the `wrap` class for responsive tables. It will be wrap the table in a container with a horizontal scroll added when the device isn't wide enough as seen in this live example.
 
 <div class="example">
-  <table class="wrap">
+  <table class="wrap full">
     <thead>
       <tr>
         <th>2012</th>
@@ -67,7 +67,7 @@ Add the `wrap` class for responsive tables. It will be wrap the table in a conta
   </table>
 </div>
 {% highlight html %}
-<table class="wrap">
+<table class="wrap full">
   <thead>
     <tr>
       <th>2012</th>

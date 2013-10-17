@@ -68,7 +68,7 @@ The first argument for the `columns()` mixin specifies the number of columns tha
 You can use your own CSS code or a CSS framework to create the grids if that works best for you as long as the final results is the same.
 
 ## Page Width
-The maximal width of a page type should be set based on the type of content it contains. A page with article content should e.g. have a width that makes the text line length optimized for readability. An application view with spreadsheet like data might do better with a page width of 100% of the device.
+The maximal width of a page type should be set based on the type of content it contains. A page with article content should e.g. have a width that makes the text line length optimized for readability. An application view with spreadsheet-like data might do better with a page width of 100% of the device.
 
 ## Sub Grids
 Use the same concept, and the same code, as you do for page grids to create sub grids. The bottom of the article box in the example above can be divided into two sub columns using `columns(6)`. It would typically be adjusted to `columns(12)` below a certain breakpoint.

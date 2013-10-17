@@ -120,6 +120,10 @@ a.dropdown-toggle:hover {
   text-decoration: none;
 }
 
+a.btn {
+  text-decoration: none;
+}
+
 .grid-example {
   @include clearfix();
   nav {

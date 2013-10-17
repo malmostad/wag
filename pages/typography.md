@@ -8,7 +8,7 @@ permalink: /typography/
 Stylesheets in the global assets includes styling for a basic set of elements like article content, tables and forms. For elements not listed in the WAG, you will have to set the styling yourself based on the specification and examples below.
 
 ## Typefaces
-The serif typeface [Georgia](http://en.wikipedia.org/wiki/Georgia_(typeface)) is used for body copy and headings in articles. The sans serif typeface [Open Sans](http://en.wikipedia.org/wiki/Open_Sans) is used for menus, navigation, tables, captions, preambles and short pieces of text. Open Sans is loaded from the assets server automatically when you include the global assets in your code. Use the full `font-family` declarations with backup families found in the [variables Sass file](https://github.com/malmostad/intranet-assets/blob/master/app/assets/stylesheets/variables.css.scss).
+The serif typeface [Georgia](http://en.wikipedia.org/wiki/Georgia_(typeface)) is used for body copy and headings in articles. The sans serif typeface [Open Sans](http://en.wikipedia.org/wiki/Open_Sans) is used for menus, navigation, tables, captions, preambles and short pieces of text. The web fonts for Open Sans are loaded from the assets server automatically when you include the global assets in your code. Use the full `font-family` declarations with backup families found in the [variables Sass file](https://github.com/malmostad/intranet-assets/blob/master/app/assets/stylesheets/variables.css.scss).
 
 ## Font Size
 Font sizes should be specified with relative units, i.e. `em` or `%`. You must respect the user device and leave the font size for the `body` element to 100%. All text styling included in the assets, e.g. article content (below) and tables are based on this.
@@ -35,7 +35,7 @@ If a device has the base font size set to 16px and the zoom level is set to 100%
 | ------------------------------------------------------ | ---------------- | --------- | ------------ |
 {:.full.wrap}
 
-Note: This is the sizes in pixels that the text will *rendered* in with the circumstances mentioned above, the sizes should be *specified* in relative sizes. An exception to this rule is font size in forms that are set in absolute units using `px`. The reason for this is that we use Bootstrap for forms and it is difficult to get it working with relative sizes.
+Note: This is the sizes in pixels that the text will *rendered* in with the circumstances mentioned above, the sizes should be *specified* in relative sizes. An exception to this rule is font size in forms that are set in absolute units using `px`. The reason for this is that we use Bootstrap for forms and it is difficult to get it to work with relative sizes.
 
 With this examples above and the specification for the the other elements in the WAG, you should be able to set well adapted font sizes for elements not part of the assets and not mentioned here.
 
