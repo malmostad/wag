@@ -3,7 +3,6 @@
   <head>
     <meta charset='utf-8'/>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
-    <meta content='no-index, no-follow' name='robots'/>
     <title>{{ page.title }}</title>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
     <!--[if lte IE 8]><script src='{{ site.cdn_url }}/html5shiv-printshiv.js' type='text/javascript'></script><![endif]-->
@@ -12,7 +11,7 @@
     <link rel='stylesheet' href='{{ site.baseurl }}/stylesheets/application.css'>
     <link rel='icon' type='image/x-icon' href='{{ site.cdn_url }}/favicon.ico'/>
   </head>
-  <body class="development">
+  <body>
   <div class='app-title'><a href='{{ site.baseurl }}/'>{{ site.name }}</a></div>
     <article class='body-copy'>
       {{ content }}
