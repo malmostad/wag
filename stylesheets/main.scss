@@ -17,9 +17,9 @@ nav.toc {
     li {
       margin-bottom: .4em;
       &.active {
-        display: none;
         a {
           color: black;
+          font-weight: bold;
           cursor: default;
         }
       }
