@@ -42,4 +42,4 @@ Before you start development, contact kominteamet@malmo.se and request access to
 Please contact kominteamet@malmo.se for questions about the WAG.
 
 ## External Services
-If your system has an external audience, i.e. it is not part of the intranet, you must use [WAG version 2.0](http://malmo.se/WAG/).
+If your system has an external audience, i.e. it is not part of the intranet, you must use [WAG version 2.0](http://malmo.se/WAG/) that gives the end user the malmo.se-experience.
