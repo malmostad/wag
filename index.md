@@ -10,7 +10,9 @@ Version 3.0 for the City of Malmö's intranet, "Komin".
 {:.preamble}
 
 ## Intranet vision
-A modern organization requires a modern intranet. Employees today expect not only the classic intranet content—reference material for work and news about changes—they also want to be able to perform job-related tasks directly on the intranet and contribute themselves by commenting, asking questions and sharing their knowledge. Also, the employees expect to use the intranet from any place, on every device. A steadily growing number of smartphones and tablets exist in organizations—so also at City of Malmö.
+A modern organization requires a modern intranet. 
+
+Employees today expect not only the classic intranet content—reference material for work and news about changes—they also want to be able to perform job-related tasks directly on the intranet and contribute themselves by commenting, asking questions and sharing their knowledge. Also, the employees expect to use the intranet from any place, on every device. A steadily growing number of smartphones and tablets exist in organizations—so also at City of Malmö.
 
 For these reasons City of Malmös intranet Komin must have a variety of seamlessly integrated services and a responsive user experience all the way from the intranet home page, via the content pages, through the interaction in the services. Content, tools and services must work on all screen sizes and on the major HTML5 compatible devices.
 
