@@ -14,7 +14,7 @@ A modern organization requires a modern intranet.
 
 Employees today expect not only the classic intranet content—reference material for work and news about changes—they also want to be able to perform job-related tasks directly on the intranet and contribute themselves by commenting, asking questions and sharing their knowledge. Also, the employees expect to use the intranet from any place, on every device. A steadily growing number of smartphones and tablets exist in organizations—so also at City of Malmö.
 
-For these reasons City of Malmös intranet Komin must have a variety of seamlessly integrated services and a responsive user experience all the way from the intranet home page, via the content pages, through the interaction in the services. Content, tools and services must work on all screen sizes and on the major HTML5 compatible devices.
+For these reasons City of Malmö's intranet Komin must have a variety of seamlessly integrated services and a responsive user experience all the way from the intranet home page, via the content pages, throughout the interaction in the services. Content, tools and services must work on all screen sizes and on the major HTML5 compatible devices.
 
 Web Application Guidelines 3.0 explains how to integrate your service into
 the intranet and how you can take part in creating a superior intranet
