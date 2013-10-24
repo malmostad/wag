@@ -66,6 +66,13 @@ h2 + .example {
   border-bottom: none;
   padding: 2em 1.4em 1.4em;
   margin-bottom: 0;
+  article {
+    margin: 0;
+  }
+  .pagination ul {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .example:before, .highlight code:before {
@@ -120,7 +127,7 @@ a.dropdown-toggle:hover {
   text-decoration: none;
 }
 
-a.btn {
+.example a.btn {
   text-decoration: none;
 }
 
@@ -159,6 +166,9 @@ a.btn {
 }
 
 @media (max-width: 40em) {
+  .example {
+    padding: 2em .6em 1.4em;
+  }
   .grid-example {
     nav {
       @include columns(12);
@@ -167,5 +177,13 @@ a.btn {
       @include columns(12);
       margin-left: 0;
     }
+  }
+  .example .input-append input {
+    max-width: 10em;
+  }
+}
+@media (max-width: 25em) {
+  .example.buttons .btn {
+    margin-bottom: .5em;
   }
 }

@@ -27,7 +27,6 @@ If you for some reason can't use Ajax based loading of more records and need cla
       <li class="active"><span>2</span></li>
       <li><a href="#">3</a></li>
       <li><a href="#">4</a></li>
-      <li><a href="#">5</a></li>
       <li><a href="#">Next</a></li>
     </ul>
   </div>
@@ -41,7 +40,6 @@ If you for some reason can't use Ajax based loading of more records and need cla
     <li class="active"><span>2</span></li>
     <li><a href="#">3</a></li>
     <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
     <li><a href="#">Next</a></li>
   </ul>
 </div>
