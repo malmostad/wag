@@ -10,7 +10,7 @@ To get the correct styling for buttons, you need to use the class names specifie
 * No default styling is applied to buttons.
 * The styling works for both `input` elements of the `submit` type as well as `button` and `a` elements.
 
-<div class="example">
+<div class="example buttons">
   <a class="btn" href="#">Link</a>
   <button class="btn" type="submit">Button</button>
   <input class="btn" type="button" value="Input"/>
