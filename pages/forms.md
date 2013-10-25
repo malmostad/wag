@@ -478,7 +478,6 @@ $('#datepicker-example').datepicker
   todayHighlight: true
 {% endhighlight %}
 
-
 ## Autocomplete
 [jQueryUI Autocomplete](http://jqueryui.com/autocomplete/) is available in the global assets with a custom styling. Here is a live example of how you use it with the City of Malmö's map service. The service has a jsonp interface.
 
