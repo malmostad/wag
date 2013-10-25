@@ -471,7 +471,7 @@ Summarize what needs to be corrected at the top of the form. Add the `warning` c
 
 {% highlight coffeescript %}
 $('#datepicker-example').datepicker
-  format: "yyyy-dd-mm"
+  format: "yyyy-mm-dd"
   weekStart: 1
   language: "sv"
   autoclose: true

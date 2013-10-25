@@ -34,13 +34,12 @@ $ ->
   # Prevent submissions of dummy forms
   $("form").submit (event) ->
     alert "Only a dummy form"
-    console.log "Y"
     event.preventDefault()
   $("#load-more").click ->
     $(@).text("Loading...").attr('disabled', true)
 
   $('#my-datepicker').datepicker
-    format: "yyyy-dd-mm"
+    format: "yyyy-mm-dd"
     weekStart: 1
     language: "sv"
     autoclose: true
