@@ -48,7 +48,7 @@ An input field used together with an action button, most often used for search f
   <form action="/fox" method="post" class="form-horizontal malmo-form">
     <section>
       <p class="help">
-        Some instructions to the form may, or may not, be necessary. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        Some instructions to the form may, or may not, be necessary. Lorem lipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation.
       </p>
