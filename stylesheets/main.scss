@@ -1,6 +1,13 @@
 article {
   margin: 2em auto;
   max-width: 36em;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: $border;
+    margin: 1em 0 2em;
+  }
 }
 
 nav.toc {
