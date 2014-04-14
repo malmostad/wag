@@ -16,5 +16,4 @@ There are three kind of response messages. Use the warning message when the user
 <div class="success">Your profile was updated</div>
 <div class="warning">Please correct the indicated fields below</div>
 <div class="error">Your account can not be displayed. Please try again later.</div>
-</div>
 {% endhighlight %}
