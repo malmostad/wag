@@ -8,9 +8,18 @@ permalink: /
 
 The following versions of our web application guidelines are available:
 
-* [External v4](http://malmostad.github.io/wag-external-v4/) (Editor's Draft)
-* [Intranet v3](http://malmostad.github.io/wag-intranet-v3/)
-* [External v2](http://malmo.se/Web-Application-Guidelines.html) (Deprecated from 2014-09-01)
+* [External v4](http://malmostad.github.io/wag-external-v4/). Editor's Draft, will be Working Draft 2014-06-01 and Recommendation 2014-09-01.
+* [Intranet v3](http://malmostad.github.io/wag-intranet-v3/). Recommendation.
+* [External v2](http://malmo.se/Web-Application-Guidelines.html). Will be deprecated 2014-09-01.
+
 
 ## Browser Support
-[TODO: move from malmo.se/wag]
+
+All external and intranet web applications must support the following web browsers:
+
+* Current stable version of Chrome, and the major version that preceded it, on Android, Linux, Mac OS X and Windows.
+* Android Browser 4.0.
+* Current stable version of Firefox, and the major version that preceded it, on Linux, Mac OS X and Windows.
+* Internet Explorer 9 and later stable versions on desktop versions of Windows and on Windows Phone.
+* For Internet Explorer 7 and 8 on desktop versions of Windows, cosmetic flaws are accepted, but the information must be findable and readable for the user.
+* Safari 6.0 and later stable versions on iOS and Mac OS X.
