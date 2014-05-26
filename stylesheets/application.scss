@@ -1,3 +1,16 @@
+@mixin clearfix() {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: '';
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
 .wrapper {
   margin: 1em auto;
   max-width: 36.5em;
@@ -6,4 +19,6 @@
     margin-top: 3em;
     margin-bottom: 2em;
   }
+  @include clearfix();
 }
+
