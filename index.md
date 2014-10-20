@@ -10,7 +10,7 @@ The following versions of our web application guidelines are available:
 
 * [External v4](http://malmostad.github.io/wag-external-v4/). Recommendation.
 * [Intranet v3](http://malmostad.github.io/wag-intranet-v3/). Recommendation.
-* [External v2](http://malmo.se/Web-Application-Guidelines.html). Deprecated for the intranet. Will be deprecated for external applications 2014-09-01.
+* [External v2](http://malmo.se/Web-Application-Guidelines.html). Deprecated.
 
 
 ## Browser Support
