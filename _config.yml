@@ -1,7 +1,7 @@
 # jekyll serve --baseurl "" --watch
 name: "Web Application Guidelines"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 exclude: [vendor, Gemfile, Gemfile.lock, .gitignore, README.md, build.sh]
 baseurl: /wag
 cdn_url: //assets.malmo.se/external/v4
