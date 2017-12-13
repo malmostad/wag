@@ -1,5 +1,5 @@
-Web Application Guidelines v4
-==============================
+Web Application Guidelines
+==========================
 
 This repo contains the the Table of Contents page for different versions of The City of Malmö’s Web Application Guidelines available for reading at https://malmo.se/wag/.
 
