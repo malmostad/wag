@@ -18,7 +18,6 @@ The following versions of our Web Application Guidelines are available:
 All external and intranet web applications must support the following web browsers:
 
 * Current stable version of Chrome, and the major version that preceded it, on Android, Linux, Mac OS X and Windows.
-* Current stable version of Android Browser.
 * Current stable version of Firefox, and the major version that preceded it, on Linux, Mac OS X and Windows.
 * Current stable version of Microsoft Edge, on Windows and Windows Phone.
 * Current stable version of Safari on iOS and Mac OS X.
